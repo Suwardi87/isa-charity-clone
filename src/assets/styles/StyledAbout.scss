@@ -1,0 +1,301 @@
+.header {
+  background-color: #ffffff;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .nav {
+    display: flex;
+    gap: 24px;
+
+    .nav-link {
+      text-decoration: none;
+      font-size: 1rem;
+      color: #374151;
+      font-weight: 500;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #0099ff;
+      }
+    }
+  }
+}
+
+// Section Satu - Hero
+.about-hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  padding: 0 20px;
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+}
+
+// Section Dua - Misi
+.section-dua {
+  background-color: #f1f5f9;
+  padding: 80px 20px;
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+}
+
+// Section Tiga - Apa yang Dilakukan
+.section-tiga {
+  background-color: #fff;
+  padding: 80px 20px;
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+}
+
+// Section Empat - Testimoni
+.section-empat {
+  background-color: #f3f4f6;
+  padding: 80px 20px;
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #111827;
+  }
+
+  .testimonials {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .quote {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    font-style: italic;
+    color: #374151;
+
+    footer {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #111827;
+    }
+  }
+}
+
+// Section Lima - CTA
+.section-lima {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.7;
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    background-color: #f59e0b;
+    color: #1f2937;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #d97706;
+    }
+
+    &.btn-secondary {
+      background-color: #ffffff;
+      color: #1e3a8a;
+
+      &:hover {
+        background-color: #e5e7eb;
+      }
+    }
+  }
+}
+
+
+.footer-container {
+  background-color: #111827;
+  color: #ffffff;
+  padding: 60px 20px 30px;
+  font-family: 'Inter', sans-serif;
+
+  .footer-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-section {
+    .footer-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #fbbf24; // warna kuning ISA
+    }
+
+    .footer-text {
+      font-size: 0.95rem;
+      color: #d1d5db;
+      line-height: 1.6;
+    }
+
+    .footer-list {
+      list-style: none;
+      padding: 0;
+
+      .footer-item {
+        margin-bottom: 10px;
+
+        .footer-link {
+          color: #d1d5db;
+          text-decoration: none;
+          font-size: 0.95rem;
+          transition: color 0.3s;
+
+          &:hover {
+            color: #fbbf24;
+          }
+        }
+      }
+    }
+
+    .footer-form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+
+      .footer-input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font-size: 0.95rem;
+      }
+
+      .footer-btn {
+        padding: 10px;
+        background-color: #fbbf24;
+        color: #1f2937;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #f59e0b;
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+
+    .footer-text {
+      font-size: 0.85rem;
+      color: #9ca3af;
+    }
+  }
+}
