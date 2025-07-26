@@ -59,8 +59,8 @@ GitHub: [Suwardi87](https://github.com/Suwardi87)
 
 ## 🚀 Hasil Proyek
 
-![Gambar 1](assets/images/gambar-1.png)  
-![Gambar 2](assets/images/gambar-2.png)  
-![Gambar 3](assets/images/gambar-3.png)  
-![Gambar 4](assets/images/gambar-4.png)
+![Gambar 1](src/assets/images/gambar-1.png)  
+![Gambar 2](src/assets/images/gambar-2.png)  
+![Gambar 3](src/assets/images/gambar-3.png)  
+![Gambar 4](src/assets/images/gambar-4.png)
 
