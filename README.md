@@ -66,19 +66,9 @@ Edit
 
 Kalau kamu ingin ada bagian tambahan seperti **fitur utama** atau **screenshot**, tinggal tambahkan di bawah bagian `📌 Catatan`. Mau saya bantu juga untuk itu?
 
+## 🚀 Hasil Proyek
 
-
-
-
-
-
-
-Tanya ChatGPT
-
-
-
-Alat
-
-
-
-Chat
+![Gambar 1](assets/images/gambar-1.png)
+![Gambar 2](assets/images/gambar-2.png)
+![Gambar 3](assets/images/gambar-3.png)
+![Gambar 4](assets/images/gambar-4.png)
